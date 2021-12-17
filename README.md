@@ -2,7 +2,7 @@
 Tool for checking how many failed authentication attempts will cause an account to become locked
 
 ```
-$ ./ssh_lockout_check.py example.com username superstrongpassword 100
+$ ./ssh_lockout_check.py example.com username superstrongpassword 6
 Trying 0 bad passwords followed by a good one
 Authentication successful after 0 bad passwords
 
